@@ -38,14 +38,6 @@ export const navbarData: NavbarProps = {
       label: "主旨",
       href: "/about",
     },
-    {
-      label: "動画",
-      href: "/movie",
-    },
-    {
-      label: "受講者の声",
-      href: "/testimonial",
-    },
   ],
 };
 
