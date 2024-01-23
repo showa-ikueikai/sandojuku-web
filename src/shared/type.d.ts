@@ -44,6 +44,13 @@ interface MenuLink extends Link {
   links?: Array<Link>;
 }
 
+interface CallToAction {
+  text?: string;
+  href: string;
+  icon?: Icon;
+  targetBlank?: boolean;
+}
+
 interface HeroProps {
   title: string;
   subtitle: string;
@@ -80,4 +87,9 @@ interface BookProps {
 interface AboutProps {
   title: string;
   description: string;
+}
+
+interface InformationProps {
+  header: Header;
+  callToAction: CallToAction;
 }
