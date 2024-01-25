@@ -20,7 +20,7 @@ const Page = () => {
       </div>
       <section id="schedule" className="my-5 px-4">
         <h3 className="text-md font-semibold sm:text-lg">開催概要</h3>
-        <p className="mb-4">4月春開講～12月冬閉講（全8回）</p>
+        <p className="mb-4 text-sm">4月春開講～12月冬閉講（全8回）</p>
         <table className="w-full table-fixed border-collapse border border-slate-400">
           <tbody>
             <tr>
@@ -31,10 +31,6 @@ const Page = () => {
               </td>
               <td className="border border-slate-300 p-2 text-sm">
                 「開講式＆人間性教育とは」（仮）
-                <br />
-                <span className="font-semibold">山藤 賢</span>
-                <br />
-                （医療法人社団昭和育英会理事長）
               </td>
             </tr>
             <tr>
@@ -45,10 +41,6 @@ const Page = () => {
               </td>
               <td className="border border-slate-300 p-2 text-sm">
                 「宇宙のリズム」（仮）
-                <br />
-                <span className="font-semibold">戸高 雅史</span>
-                <br />
-                （野外学校FOS主宰、登山家）
               </td>
             </tr>
             <tr>
@@ -59,10 +51,6 @@ const Page = () => {
               </td>
               <td className="border border-slate-300 p-2 text-sm">
                 「マインドフルネス」（仮）
-                <br />
-                <span className="font-semibold">藤野 正寛</span>
-                <br />
-                （NTTコミュニケーション科学基礎研究所リサーチスペシャリスト）
               </td>
             </tr>
             <tr>
@@ -70,7 +58,7 @@ const Page = () => {
                 7月21日
               </td>
               <td className="border border-slate-300 p-2 text-sm">
-                <span className="font-semibold">シークレットゲスト</span>
+                シークレットゲスト
               </td>
             </tr>
             <tr>
@@ -89,10 +77,6 @@ const Page = () => {
               </td>
               <td className="border border-slate-300 p-2 text-sm">
                 「喜びに生きる」（仮）
-                <br />
-                <span className="font-semibold">中村 愛</span>
-                <br />
-                （エナジーカウンセラー）
               </td>
             </tr>
             <tr>
@@ -103,10 +87,6 @@ const Page = () => {
               </td>
               <td className="border border-slate-300 p-2 text-sm">
                 「ガイアシンフォニー」（仮）
-                <br />
-                <span className="font-semibold">龍村 ゆかり</span>
-                <br />
-                （ガイアシンフォニープロデューサー）
               </td>
             </tr>
             <tr>
@@ -117,10 +97,6 @@ const Page = () => {
               </td>
               <td className="border border-slate-300 p-2 text-sm">
                 「森のような経営」（仮）
-                <br />
-                <span className="font-semibold">山田 博</span>
-                <br />
-                （森のリトリート創業者、コーチ、山伏）
               </td>
             </tr>
             <tr>
@@ -131,10 +107,6 @@ const Page = () => {
               </td>
               <td className="border border-slate-300 p-2 text-sm">
                 「年忘れ仏教説法会」（仮）
-                <br />
-                <span className="font-semibold">千田 利幸</span>
-                <br />
-                （仏教説法家）
               </td>
             </tr>
           </tbody>

@@ -278,7 +278,7 @@ export const bookData: BookProps = {
 
 export const informtionData: InformationProps = {
   header: {
-    title: "2024年版　山藤塾ご案内",
+    title: "2024年版 山藤塾ご案内",
   },
   callToAction: {
     text: "詳細はこちら",
