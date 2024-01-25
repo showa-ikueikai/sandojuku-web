@@ -75,7 +75,7 @@ interface NavbarProps {
 interface ProfileProps {
   image: Image;
   name: string;
-  description?: string;
+  descriptions?: Array<string>;
   positions?: Array<string>;
 }
 

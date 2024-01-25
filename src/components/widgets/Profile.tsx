@@ -2,7 +2,7 @@ import { ProfileProps } from "@/src/shared/type";
 import Image from "next/image";
 
 const Profile = (profileData: ProfileProps) => {
-  const { image, name, description, positions } = profileData;
+  const { image, name, descriptions, positions } = profileData;
 
   return (
     <section id="profile">
@@ -15,10 +15,16 @@ const Profile = (profileData: ProfileProps) => {
           />
           <div className="ml-2">
             <h1 className="text-4xl font-bold">{name}</h1>
-            <p className="py-6">{description}</p>
+            <article className="prose max-w-none py-6">
+              {descriptions?.map((description, index) => (
+                <p key={`description-${index}`} className="my-0">
+                  {description}
+                </p>
+              ))}
+            </article>
             <ul className="ml-6 list-disc">
               {positions?.map((position, index) => (
-                <li key={`item-activity-${index}`}>{position}</li>
+                <li key={`position-${index}`}>{position}</li>
               ))}
             </ul>
           </div>
