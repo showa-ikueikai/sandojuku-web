@@ -20,7 +20,9 @@ const Page = () => {
       </div>
       <section id="schedule" className="my-5 px-4">
         <h3 className="text-md font-semibold sm:text-lg">開催概要</h3>
-        <p className="mb-4 text-sm">4月春開講～12月冬閉講（全8回）</p>
+        <p className="mb-4 text-sm">
+          4月春開講～12月冬閉講（全8講）（追加のイベント、シークレットゲストの可能性あり）
+        </p>
         <table className="w-full table-fixed border-collapse border border-slate-400">
           <tbody>
             <tr>
@@ -37,10 +39,10 @@ const Page = () => {
               <td className="border border-slate-300 p-2 text-center text-sm">
                 5月19日
                 <br />
-                いのち
+                社会
               </td>
               <td className="border border-slate-300 p-2 text-sm">
-                「宇宙のリズム」（仮）
+                「最先端組織と社会のあり方：地球物語」（仮）
               </td>
             </tr>
             <tr>
@@ -56,9 +58,11 @@ const Page = () => {
             <tr>
               <td className="border border-slate-300 p-2 text-center text-sm">
                 7月21日
+                <br />
+                いのち
               </td>
               <td className="border border-slate-300 p-2 text-sm">
-                シークレットゲスト
+                「宇宙のリズム」（仮）
               </td>
             </tr>
             <tr>
