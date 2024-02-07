@@ -6,7 +6,7 @@ const Book = () => {
   const { header, books } = bookData;
 
   return (
-    <section id="book" className="bg-gray-100 pt-4">
+    <section id="book">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
         {header && (
           <HeaderWidget header={header} titleClassname="text-2xl sm:text-3xl" />

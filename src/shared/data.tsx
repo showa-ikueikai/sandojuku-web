@@ -33,7 +33,7 @@ export const navbarData: NavbarProps = {
     },
     {
       label: "著書一覧",
-      href: "/profile#book",
+      href: "/book",
     },
     {
       label: "主旨",
