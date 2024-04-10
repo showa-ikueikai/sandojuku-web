@@ -39,6 +39,10 @@ export const navbarData: NavbarProps = {
       label: "主旨",
       href: "/about",
     },
+    {
+      label: "お問い合わせ",
+      href: "/contact",
+    },
   ],
 };
 
